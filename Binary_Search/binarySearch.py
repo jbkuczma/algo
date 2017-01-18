@@ -28,4 +28,4 @@ def binarySearchRecursive(sortedList, value, low = 0, high = -1):
 l = [0,1,2,3,4,5,6,7,8,9]
 
 print(binarySearch(l, 3))
-print(binarySearchRecursive(l, 3, l[0], l[len(l)-1]))
+print(binarySearchRecursive(l, 3))
