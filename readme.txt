@@ -1,1 +1,1 @@
-Repo of alogrithms, data structures, and maybe some other random code.
+Repo of alogrithms, data structures, problems from Cracking The Coding Interview, and maybe some other random code.
