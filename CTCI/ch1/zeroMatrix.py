@@ -3,12 +3,6 @@
 	its entire row and column are set to 0.
 '''
 
-# def turnRowToZero(matrix, row):
-	
-
-# def turnColumnToZero(matrix, column):
-	
-
 def zeroMatrix(matrix):
 	numberOfRows = len(matrix[0])
 	numberOfColumns = len(matrix)
