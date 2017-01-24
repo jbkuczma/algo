@@ -64,6 +64,7 @@ class LinkedList:
 			if currentNode.getData() == node:
 				found = True
 			else:
+				previousNode = currentNode
 				currentNode = currentNode.getNext()
 		if previousNode == None:
 			self.head = currentNode.getNext()
