@@ -7,7 +7,7 @@ def zeroMatrix(matrix):
 	numberOfRows = len(matrix[0])
 	numberOfColumns = len(matrix)
 	# whereAreTheZeros = [[False for x in range(numberOfRows)] for y in range(numberOfColumns)]
-	whereAreTheZeros = []
+	whereAreTheZeros = [] # a list of tuples where the zeros are located
 	indexInRow = 0
 	currentRow = 0
 	for row in matrix:
