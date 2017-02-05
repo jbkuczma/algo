@@ -36,6 +36,7 @@ class LinkedList:
 		while currentNode != None:
 			count+=1
 			currentNode = currentNode.getNext()
+		return count
 
 	def printList(self):
 		currentNode = self.head
