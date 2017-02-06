@@ -22,13 +22,13 @@ public class BinarySearch {
 		int[] sortedArray = {0,1,2,3,4,5,6,7,8,9};
 		int value = 7;
 		System.out.println("Goal: " + value);
-        System.out.println("Iterative Binary Search");
-        System.out.println("Index: " + binarySearch(sortedArray, value));
-        
-        value = 11;
+		System.out.println("Iterative Binary Search");
+		System.out.println("Index: " + binarySearch(sortedArray, value));
+
+		value = 11;
 		System.out.println("Goal: " + value);
-        System.out.println("Iterative Binary Search");
-        System.out.println("Index: " + binarySearch(sortedArray, value));
+		System.out.println("Iterative Binary Search");
+		System.out.println("Index: " + binarySearch(sortedArray, value));
 	}
 
 }
