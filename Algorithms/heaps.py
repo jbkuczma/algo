@@ -26,8 +26,3 @@ def heapsAlgo(theList): #to generate all permutations of a list.
 
 li = [1,2,3]
 print(heapsAlgo(li))
-
-'''
-    prints
-        > [[2, 1, 3], [1, 2, 3], [2, 1, 3], [3, 1, 2], [1, 3, 2], [1, 2, 3]]
-'''
