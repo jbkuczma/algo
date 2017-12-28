@@ -1,5 +1,6 @@
 public class BinarySearch {
 
+	// iterative binary search
 	public static int binarySearch(int[] sortedArray, int value) {
 		int low = sortedArray[0];
 		int high = sortedArray[sortedArray.length - 1];
@@ -18,6 +19,7 @@ public class BinarySearch {
 		return -1;	
 	}
 
+	// recursive binary search
 	public static int binarySearch(int[] sortedArray, int value, int low, int high) {
 		int mid = (low + high) / 2;
 		if(low > high) {
