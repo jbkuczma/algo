@@ -1,3 +1,5 @@
 .vscode
 
 *.class
+
+__pycache__

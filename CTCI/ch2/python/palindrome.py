@@ -2,7 +2,7 @@
 	Implement a function to check if a linked list is a palindrome
 '''
 
-from node import LinkedList
+from Node import LinkedList
 
 
 def check(s):

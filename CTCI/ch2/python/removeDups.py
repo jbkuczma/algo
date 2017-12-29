@@ -2,7 +2,7 @@
 	write code to remove duplicates from an unsorted linked list
 '''
 
-from node import LinkedList
+from Node import LinkedList
 
 def removeDups(li):
 	currentNode = li.head
@@ -20,5 +20,6 @@ l.addNode(6)
 l.addNode(7)
 l.addNode(7)
 l.addNode(9)
+l.printList()
 removeDups(l)
 l.printList()

@@ -4,7 +4,7 @@
 	to add the two numbers.
 '''
 
-from node import LinkedList
+from Node import LinkedList
 
 def getNumber(ll):
 	currentNode = ll.head

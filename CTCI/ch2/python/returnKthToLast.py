@@ -2,7 +2,7 @@
 	Implement an algorithm to find the Kth to last element of a singly linked list
 '''
 
-from node import LinkedList
+from Node import LinkedList
 
 def returnKthLastElement(ll, index):
 	linkedListLength = ll.getSize()
